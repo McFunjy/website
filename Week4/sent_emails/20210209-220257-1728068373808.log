@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: wef@qwd.er
+Date: Tue, 09 Feb 2021 19:02:57 -0000
+Message-ID: <161289737786.2380.15028374342144159018@DESKTOP-HNSJHHK>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/auth/reset/OA/5o0-43bfe61042d541831b9f/
+
+Your username, in case you've forgotten: admin122
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------
