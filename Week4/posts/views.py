@@ -53,7 +53,6 @@ def post_view(request, username, post_id):
     return render(request, 'post.html', {'author':author, 'count':count, 'post':post})
 
 
-@login_required
 def post_edit(request, username, post_id):
     author = get_object_or_404(User, username=username)
     post = get_object_or_404(Post, id=post_id, author=author)
