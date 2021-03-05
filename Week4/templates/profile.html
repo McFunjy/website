@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}Профиль пользователя {{author.first_name}} {{author.last_name}}{% endblock %} </title>
+    <title>{% block title %}Профиль пользователя {{user.first_name}} {{user.last_name}}{% endblock %} </title>
     <!-- Загрузка статики -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap.min.css' %}">
@@ -20,10 +20,10 @@
                     <div class="card">
                             <div class="card-body">
                                     <div class="h2">
-                                        {{author.first_name}} {{author.last_name}}
+                                        {{user.first_name}} {{user.last_name}}
                                     </div>
                                     <div class="h3 text-muted">
-                                         @{{author.username}}
+                                         @{{user.username}}
                                     </div>
                             </div>
                             <ul class="list-group list-group-flush">

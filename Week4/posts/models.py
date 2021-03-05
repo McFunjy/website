@@ -16,7 +16,7 @@ class Group(models.Model):
 class Post(models.Model):
     text = models.TextField(
         verbose_name = 'Текст поста',
-        help_text = 'Введите текст поста поста'
+        help_text = 'Напишите текст для новго поста'
     )
     pub_date = models.DateTimeField('date published', auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -26,4 +26,4 @@ class Post(models.Model):
         help_text = 'Выберете группу, в которой будет размещен пост'
     )
     def __str__(self):
-        return self.text[:15]
+        return self.text
